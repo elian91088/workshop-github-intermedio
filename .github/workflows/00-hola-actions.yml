@@ -36,3 +36,7 @@ jobs:
           echo "### Mi primer workflow" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "Ejecutado por **$GITHUB_ACTOR** sobre la rama \`$GITHUB_REF_NAME\`." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Paso que va a fallar
+        run: |
+          echo: argumento
