@@ -39,4 +39,4 @@ jobs:
 
       - name: Paso que va a fallar
         run: |
-          echo: argumento
+          echo "se corrige para que no falle"
